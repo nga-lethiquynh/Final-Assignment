@@ -1,0 +1,8 @@
+@model ShoeStore.Shared.Dtos.ProductDto
+
+<div>
+    <h2>@Model.Name</h2>
+    <p>@Model.Description</p>
+    <p>Price: @Model.Price @Model.Currency</p>
+    <img src="@Model.ImageUrl" alt="@Model.Name" />
+</div>

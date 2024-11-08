@@ -1,0 +1,11 @@
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\bin\Debug\net8.0\ShoeStoreShared.deps.json
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\bin\Debug\net8.0\ShoeStoreShared.dll
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\bin\Debug\net8.0\ShoeStoreShared.pdb
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.AssemblyInfoInputs.cache
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.AssemblyInfo.cs
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.csproj.CoreCompileInputs.cache
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.dll
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\refint\ShoeStoreShared.dll
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ShoeStoreShared.pdb
+C:\Users\nga.lethiquynh\C# Projects\Final Assignment\ShoeStoreShared\obj\Debug\net8.0\ref\ShoeStoreShared.dll

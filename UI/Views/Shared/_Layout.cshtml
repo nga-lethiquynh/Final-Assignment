@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ShoeStore</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a id="homeMenu">Home</a></li>
+                <li><a id="registerMenu">Register</a></li>
+                <li><a id="loginMenu">Login</a></li>
+                <li>
+                    <form asp-page="/Account/Logout" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-link" style="padding:0;">Logout</button>
+                    </form>
+                </li>
+                @* Add category menus dynamically *@
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <li><a class="categoryMenu" data-category-id="@category.Id">@category.Name</a></li>
+                }
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer>
+        <p>© 2024 - ShoeStore</p>
+    </footer>
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>

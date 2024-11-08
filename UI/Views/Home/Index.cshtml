@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ShoeStore.Shared.Dtos.CategoryDto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Choose a category to view products.</p>
+    <div>
+        @foreach (var category in Model)
+        {
+            <a href="/Product/List?categoryId=@category.Id">@category.Name</a>
+        }
+    </div>
+</div>

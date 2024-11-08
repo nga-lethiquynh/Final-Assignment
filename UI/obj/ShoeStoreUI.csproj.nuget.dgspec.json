@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreUI\\ShoeStoreUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\ShoeStoreAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\ShoeStoreAPI.csproj",
+        "projectName": "ShoeStoreAPI",
+        "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\ShoeStoreAPI.csproj",
+        "packagesPath": "C:\\Users\\nga.lethiquynh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nga.lethiquynh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj": {
+                "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj",
+        "projectName": "ShoeStoreShared",
+        "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj",
+        "packagesPath": "C:\\Users\\nga.lethiquynh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nga.lethiquynh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreUI\\ShoeStoreUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreUI\\ShoeStoreUI.csproj",
+        "projectName": "ShoeStoreUI",
+        "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreUI\\ShoeStoreUI.csproj",
+        "packagesPath": "C:\\Users\\nga.lethiquynh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nga.lethiquynh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\ShoeStoreAPI.csproj": {
+                "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreAPI\\ShoeStoreAPI.csproj"
+              },
+              "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj": {
+                "projectPath": "C:\\Users\\nga.lethiquynh\\C# Projects\\Final Assignment\\ShoeStoreShared\\ShoeStoreShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@model IEnumerable<ShoeStore.Shared.Dtos.ProductDto>
+
+<div>
+    <h2>Products</h2>
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>
+                <a href="/Product/Details/@product.Id">@product.Name</a>
+            </li>
+        }
+    </ul>
+</div>
